@@ -8,11 +8,21 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+Step 1:Start the program.
 
+Step 2: Load the California Housing dataset and select the first three features as inputs (X), and the target and an additional feature (Y) for prediction..
+
+Step 3: Scale both the input features (X) and target variables (Y) using StandardScaler.
+
+Step 4: Initialize SGDRegressor and use MultiOutputRegressor to handle multiple output variables.
+
+Step 5: Initialize SGDRegressor and use MultiOutputRegressor to handle multiple output variables.
+
+Step 6: Train the model using the scaled training data, and predict outputs on the test data.
+
+Step 7: Inverse transform predictions and evaluate the model using the mean squared error (MSE). Print the MSE and sample predictions.
+
+Step 6:Stop the program.
 ## Program:
 ```
 import numpy as np
@@ -59,6 +69,7 @@ RegisterNumber: 21222240178
 ```
 
 ## Output:
+### df.head()
 ![image](https://github.com/user-attachments/assets/5c70f3d2-e85b-4600-84f7-b64ca68bb648)
 
 
